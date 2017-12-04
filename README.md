@@ -10,6 +10,7 @@ Inspired by https://eli.thegreenplace.net/2013/06/11/keeping-persistent-history-
 - Can also record git branch and venv when explicitly set. 
 - Add visually distinctive notes. 
 
+## Using bsesh
 To check session name:
 ```
 $ sesh 
@@ -29,8 +30,8 @@ setvenvsesh <venv>:       add venv name to future lines
 newseshdate:              start a new file, diff date same session name
 endsesh:                  stop recording the session
 ```
-
-Example history:
+## Example
+view history:
 ```
 $ seshh
 17-12-04 11:02:52 ||  ||  || namesesh mysesh
