@@ -135,7 +135,7 @@ sesh() {
     if [[ $# -eq 1 && $1 == "-h" ]]
     then
         echo "start a session for recording history"
-        echo "sessh:                    view session history"
+        echo "seshh:                    view session history"
         echo "namesesh <name>:          start a new session, in ~/.hist/<date>-<name>"
         echo "sn <notes>:               add a note with special eye grabbing lines"
         echo "setgitsesh <git branch>:  add a branch name to future lines"
