@@ -7,7 +7,7 @@ alias lst='ls -lart| tail'
 export HISTSIZE="10000"
 export HISTFILESIZE=""
 export HISTTIMEFORMAT="%y-%m-%d %T "
-export HISTFILE=/Users/marisayeung/.my_bash_history
+export HISTFILE=/Users/$USER/.my_bash_history
 # save commands to history right away instead of after shell closes
 #shopt -s histappend
 #PROMPT_COMMAND="history -a;$PROMPT_COMMAND"
