@@ -1,5 +1,5 @@
-bsesh
-#save bash session history
+# bsesh
+save bash session history
 
 Inspired by https://eli.thegreenplace.net/2013/06/11/keeping-persistent-history-in-bash
 
